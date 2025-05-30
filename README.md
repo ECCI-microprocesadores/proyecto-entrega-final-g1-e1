@@ -70,7 +70,7 @@ Una LCD 16x2 externa muestra la temperatura en °C, con un potenciómetro para a
 
 Durante las pruebas en simulación y en protoboard, se verificó que el sistema puede mostrar correctamente temperaturas aproximadas. Por ejemplo, en una prueba de temperatura ambiente, se mostró un valor de 24.4 °C. Cuando se aumentó la temperatura (simulada), el buzzer y el LED se activaron como respuesta. Aunque no se trata de un sistema de precisión profesional, demuestra el funcionamiento esperado.
 
-[![Ver video de funcionamientos]](Proyecto_final_Microcontroladores.mp4)
+* Si deseas ver su funcionamiento [Haz clic aqui](Proyecto_final_Microcontroladores.mp4)
 
 
 #### Visualización del código 
