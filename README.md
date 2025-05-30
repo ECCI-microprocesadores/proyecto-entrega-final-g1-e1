@@ -54,7 +54,9 @@ El proceso de desarrollo del sistema se dividió en dos fases:
 
 ## Simulación
 
-Se realizó inicialmente un diseño del circuito en el entorno de simulación Proteus, permitiendo validar la lógica del sistema sin necesidad de hardware físico. En primeer monto se uso DS18820 se conectó a una de las entradas analógicas del PIC18F45K22. La señal analógica fue digitalizada utilizando el módulo ADC del microcontrolador y convertida internamente a grados Celsius. El valor resultante se mostró en la pantalla LCD, y si superaba los 40 °C, el microcontrolador activaba una salida digital para encender el buzzer y el LED.
+Se realizó inicialmente un diseño del circuito en el entorno de simulación Proteus, permitiendo validar la lógica del sistema sin necesidad de hardware físico. El primer montaje se uso el sensor DS18820 y se conectó a una de las entradas analógicas del PIC18F45K22. La señal analógica fue digitalizada utilizando el módulo ADC del microcontrolador y convertida internamente a grados Celsius. El valor resultante se mostró en la pantalla LCD, y si superaba los 40 °C, el microcontrolador activaba una salida digital para encender el buzzer y el LED. Pero finalmente, para la implementacion final, se opto usar el sensor LM35, ya que se uso en otros proyectos finales de otras materias y se comprendio su funcionamiento al detalle.
+
+![Simulacion](Simulacion.jpeg)
 
 ## Implementación física
 
@@ -62,9 +64,14 @@ Tras validar el sistema en simulación, se construyó el circuito en una protobo
 
 Una LCD 16x2 externa muestra la temperatura en °C, con un potenciómetro para ajustar el contraste. Un buzzer y un LED rojo, conectados a una salida digital, se activan si la temperatura supera los 40 °C.
 
+![IMPLEMENTACION FISICA](Implementacion_fisica.jpeg)
+
 ## Resultados
 
-Durante las pruebas en simulación y en protoboard, se verificó que el sistema puede mostrar correctamente temperaturas aproximadas. Por ejemplo, en una prueba, se mostró un valor de 24.4 °C. Cuando se aumentó la temperatura (simulada), el buzzer y el LED se activaron como respuesta. Aunque no se trata de un sistema de precisión profesional, demuestra el funcionamiento esperado
+Durante las pruebas en simulación y en protoboard, se verificó que el sistema puede mostrar correctamente temperaturas aproximadas. Por ejemplo, en una prueba de temperatura ambiente, se mostró un valor de 24.4 °C. Cuando se aumentó la temperatura (simulada), el buzzer y el LED se activaron como respuesta. Aunque no se trata de un sistema de precisión profesional, demuestra el funcionamiento esperado.
+
+[![Ver video de funcionamientos](Implementacion_fisica.jpeg)](https://youtu.be/rj2a1djewAQ?si=Dpa9nfWiZhJRGiQV)
+
 
 #### Visualización del código 
 
