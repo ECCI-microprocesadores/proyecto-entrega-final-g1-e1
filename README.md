@@ -3,6 +3,12 @@
 
 ## Integrantes
 
+[Juan Esteban Monroy Moya - 136851](https://github.com/Juanes20feb)
+
+[Shirley Katherin Bohorquez Gil - 131164](https://github.com/Shirleyb0440)
+
+[Alison Daniela Vera Rocha - 131212](https://github.com/Alisondaniela-bot)
+
 
 ## Nombre del proyecto: 
 
