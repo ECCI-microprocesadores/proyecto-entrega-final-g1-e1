@@ -229,7 +229,7 @@ El programa principal se define en la función void main(void) y comienza llaman
 
 ### i2c.h
 
-![i2c.h](i2c_h.png)
+![i2c.h](i2c_h.jpeg)
 
 ### i2c_lcd.h
 
